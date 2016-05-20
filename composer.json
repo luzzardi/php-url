@@ -1,5 +1,5 @@
 {
-    "name": "php/url",
+    "name": "luzzardi/php-url",
     "description": "Encapsulate URL functions from php in a class",
     "authors": [
         {
