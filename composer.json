@@ -1,0 +1,23 @@
+{
+    "name": "php/url",
+    "description": "Encapsulate URL functions from php in a class",
+    "authors": [
+        {
+            "name": "Andre Luzzardi",
+            "email": "luzzardi@gmail.com"
+        }
+    ],
+    "license": "GNU v3",
+    "autoload": {
+        "psr-4": {"Url\\": "src/Url"}
+    },
+    "autoload-dev": {
+        "psr-4": {"UrlTest\\": "tests/UrlTest"}
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*"
+    }
+}
