@@ -198,4 +198,19 @@ class Url
     {
         return rawurlencode($str);
     }
+
+    /**
+     * Decode URL-encoded strings
+     * @link http://php.net/manual/en/function.rawurldecode.php
+     * @param string $str <p>
+     * The URL to be decoded.
+     * </p>
+     * @return string the decoded URL, as a string.
+     * @since 4.0
+     * @since 5.0
+     */
+    public function rawUrlDecode($str)
+    {
+        return rawurldecode($str);
+    }
 }
